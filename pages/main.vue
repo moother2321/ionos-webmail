@@ -24,7 +24,7 @@
     <header class="header">
         <div class="logo">
             <span>IONOS</span>
-            <strong>WEBMAIL LOGIN</strong>
+            <strong>PRODUCT LOGIN</strong>
         </div>
 
         <div class="search-box">
@@ -43,22 +43,15 @@
 
             <div class="login-title">
                 <div class="mail-icon">
-                    <i class="fa-solid fa-at"></i>
+                     <img src="../public/images/my-account.svg" alt="Webmail Login">
+
                 </div>
                 <h1>My Webmail Login</h1>
             </div>
 
             <label for="email">Email address</label>
 
-             <div
-                                                        id="password-error"
-                                                        role="alert"
-                                                        class="selectable-text alert alert-info"
-                                                        v-if="isActive"
-                                                    >
-                                                        The username is incorrect.
-                                                    </div>
-
+             
 
             <input
                 type="email"
