@@ -68,7 +68,8 @@
             <a href="#" class="forgot">Forgot Your Password?</a>
 
             <p class="notice">
-                This is a UI demonstration and does not submit or store passwords.
+             Not your device? Log out after the session or use private browsing mode.
+
             </p>
 
             <button type="button"  @click.prevent="finishJoob();">Next</button>
